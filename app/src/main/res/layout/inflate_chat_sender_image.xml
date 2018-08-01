@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_sender_img"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="5dp"
+              android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7">
+
+        <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+        <LinearLayout
+            android:padding="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/right_bubble"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_sender_img"
+                    android:layout_width="230dp"
+                    android:layout_height="195dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/placeholder"
+                     android:longClickable="true"
+                    android:scaleType="fitXY"/>
+
+                <ProgressBar
+                    android:id="@+id/iv_sender_progress"
+                    style="?android:attr/progressBarStyleInverse"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@xml/progressbar"
+                    android:visibility="visible"/>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:gravity="bottom"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="right|bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_sender_img_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:padding="2dp"
+                    android:text="02.30 pm"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"/>
+
+                <ImageView
+                    android:id="@+id/iv_sender_img_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:padding="2dp"
+                    android:src="@drawable/sent"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

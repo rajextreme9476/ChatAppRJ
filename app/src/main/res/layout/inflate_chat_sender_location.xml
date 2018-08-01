@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ll_sender_location"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="right"
+android:padding="1dp"
+android:layout_margin="5dp"
+android:visibility="visible">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:background="@drawable/right_bubble"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_sender_location_photo"
+        android:layout_width="230dp"
+        android:layout_height="195dp"
+        android:layout_weight="8"
+        android:scaleType="fitXY"
+        android:shadowColor="@color/text_msg_input"
+        android:src="@drawable/placeholder"
+        android:textColor="@color/Black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingTop="1dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_sender_location_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="1dp"
+            android:text="01:52 am"
+            android:textColor="@color/white"
+            android:textSize="12dp"/>
+
+        <ImageView
+            android:id="@+id/iv_sender_location_status"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="1dp"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/sent"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

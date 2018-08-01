@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/menu_gallery"
+            android:title="Gallery"
+            android:icon="@drawable/ic_photo_library_black_24dp" />
+        <item
+            android:id="@+id/menu_camera"
+            android:title="Camera"
+            android:icon="@drawable/ic_photo_camera_black_24dp" />
+        <item
+            android:id="@+id/menu_location"
+            android:title="Location"
+            android:icon="@drawable/ic_near_me_black_24dp" />
+</menu>

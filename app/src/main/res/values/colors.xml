@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7B76C1</color>
+    <color name="colorPrimaryDark">#5852A6</color>
+    <color name="colorAccent">#A6A2DC</color>
+
+    <color name="white">#ffffff</color>
+    <color name="toolbar_text">#272727</color>
+
+    <color name="btn_color">#FF1F20</color>
+    <color name="Grey">#D5D5D5</color>
+    <color name="input_color">#424242</color>
+
+    <color name="red">#FF1F20</color>
+    <color name="divider">#FF9305</color>
+
+    <color name="btn_after_filled">#09A6A3</color>
+    <color name="green">#009688</color>
+    <color name="light_red">#B18888</color>
+
+    <color name="rating_color">#FFB800</color>
+
+    <color name="text_color">#49708A</color>\
+
+
+    <!---->
+
+
+    <color name="chat_btn">#8FBE00</color>
+    <color name="cal_event_color">#93BED4</color>
+
+
+    <!---->
+
+
+    <color name="grey">#c3c3c3</color>
+    <color name="white_light_gray">#BBBBBB</color>
+    <color name="transparent">#00000000</color>
+    <color name="navigation_color">#4A4A4A</color>
+    <color name="barDarkColor">#CECECE</color>
+    <color name="background_grey">#dfdfdf</color>
+    <color name="textFieldColor">#000</color>
+    <color name="text_msg_input">#9B9B9B</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Yellow">#FFFF00</color>
+    <!--   #00a19b   -->
+    <color name="OrangeRed">#FF4500</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="DarkRed">#8B0000</color>
+    <color name="Black">#000000</color>
+    <color name="greyEighty">#CCCCCC</color>
+
+    <!-- Indigo 500 -->
+    <!-- Indigo 700 -->
+    <!-- Pink 500 -->
+    <!-- Pink 700 -->
+
+    <color name="black_semi_transparent">#B1000000</color>
+    <color name="background">#B2000000</color>
+    <color name="chat_divider">#33000000</color>
+
+
+    <color name="refresh_progress_1">#FF1F20</color>
+    <color name="refresh_progress_2">#8B0000</color>
+    <color name="refresh_progress_3">#006dca</color>
+    <color name="interestColor">#4A4A4A</color>
+    <color name="skyBlue">#72CABD</color>
+
+
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+    <color name="time_color">#9B9B9B</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="caldroid_white">#FFFFFF</color>
+    <color name="caldroid_black">#000000</color>
+
+    <!-- For settings framework -->
+    <color name="caldroid_lighter_gray">#B2B2B2</color>
+    <color name="caldroid_darker_gray">#aaa</color>
+    <!-- A light Holo shade of blue -->
+    <color name="caldroid_holo_blue_light">#ff33b5e5</color>
+    <!-- A dark Holo shade of blue -->
+    <!-- A really bright Holo shade of blue -->
+
+    <color name="caldroid_333">#333</color>
+    <color name="caldroid_555">#555</color>
+    <color name="caldroid_light_red">#ff7f7f</color>
+
+
+    <!--Darshan new Design-->
+    <color name="login">#959595</color>
+    <color name="text_color_new">#9D9D9D</color>
+    <color name="text_filled_color_new">#4A4A4A</color>
+    <color name="publish_event_text">#231F20</color>
+    <color name="view_color_new">#D7D7D7</color>
+    <color name="publish_color_new">#666666</color>
+    <color name="back_color">#EAEBED</color>
+    <color name="blackalfha">#99000000</color>
+
+    <color name="filtercolor">#DA0809</color>
+    <color name="BackColor">#EDEDED</color>
+
+    <color name="grey_time">#9B9B9B</color>
+
+</resources>

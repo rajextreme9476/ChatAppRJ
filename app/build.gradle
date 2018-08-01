@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+
+ext {
+    supportLibVersion = '27.0.2'
+
+}
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "com.datavim.chatapp"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+repositories {
+    maven { url "https://dl.bintray.com/hani-momanii/maven"}
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
+    }
+}
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    compile 'com.android.support:design:25.3.1'
+    compile 'org.igniterealtime.smack:smack-android:4.1.0-rc1'
+    compile 'org.igniterealtime.smack:smack-tcp:4.1.0-rc1'
+    compile 'org.igniterealtime.smack:smack-android-extensions:4.1.0-rc1'
+    compile 'org.igniterealtime.smack:smack-sasl-provided:4.1.0-rc1'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.5.0'
+    compile 'com.squareup.picasso:picasso:2.5.0'
+    compile 'com.github.bumptech.glide:glide:3.6.0'
+    compile 'com.commit451:PhotoView:1.2.4'
+    compile 'com.cocosw:bottomsheet:1.+@aar'
+    compile 'com.erikagtierrez.multiple_media_picker:multiple-media-picker:1.0.0'
+    compile 'com.google.android.gms:play-services:10.2.1'
+    compile 'com.android.support:multidex:1.0.0'
+    testCompile 'junit:junit:4.12'
+    compile 'hani.momanii.supernova_emoji_library:supernova-emoji-library:0.0.2'
+
+    compile "com.android.support:appcompat-v7:$supportLibVersion"
+    compile "com.android.support:support-emoji:$supportLibVersion"
+    compile "com.android.support:support-emoji-appcompat:$supportLibVersion"
+    compile "com.android.support:support-emoji-bundled:$supportLibVersion"
+
+
+}

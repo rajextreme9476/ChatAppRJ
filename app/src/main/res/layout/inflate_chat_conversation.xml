@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <!--RECEIVER-->
+    <include layout="@layout/inflate_chat_receiver_text"/>
+    <include layout="@layout/inflate_chat_receiver_location"/>
+    <include layout="@layout/inflate_chat_receiver_image"/>
+    <include layout="@layout/inflate_chat_receiver_video"/>
+
+    <!--SENDER-->
+    <include layout="@layout/inflate_chat_sender_text"/>
+    <include layout="@layout/inflate_chat_sender_location"/>
+    <include layout="@layout/inflate_chat_sender_video"/>
+    <include layout="@layout/inflate_chat_sender_image"/>
+
+</LinearLayout>
+

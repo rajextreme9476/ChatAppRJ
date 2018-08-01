@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_send_msg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="2dp"
+    android:padding="5dp"
+    android:layout_gravity="right"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/right_bubble"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp">
+
+            <!--<com.datavim.chatapp.utils.EmojiTextView
+                android:id="@+id/tv_sender_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>  
+-->
+            <TextView
+                android:id="@+id/tv_sender_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/inika"
+                android:paddingTop="2dp"
+                android:text="Raviraj DESaii hi "
+                android:textColor="@color/white" />
+            <!--            <TextView
+                android:id="@+id/tv_sender_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:paddingTop="2dp"
+                android:shadowColor="@color/text_msg_input"
+                android:text="I'vet worked, thanks @reVerse! I ended up reusing the code in the "/>-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:orientation="horizontal"
+                android:paddingTop="2dp">
+
+                <TextView
+                    android:id="@+id/tv_sender_msg_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="01:52 am"
+                    android:textColor="@color/WhiteSmoke"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:id="@+id/iv_sender_msg_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:src="@drawable/sent" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

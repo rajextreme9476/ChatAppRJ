@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="chatlist_dp_height">48dp</dimen>
+    <dimen name="chatlist_dp_width">48dp</dimen>
+    <dimen name="chatlist_msg_name_font_size">14sp</dimen>
+    <dimen name="chatlist_msg_text_font_size">13sp</dimen>
+    <dimen name="chatlist_msg_time_font_size">12sp</dimen>
+    <dimen name="chatlist_msg_badge">12sp</dimen>
+</resources>

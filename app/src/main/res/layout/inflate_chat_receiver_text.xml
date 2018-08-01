@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_received_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:padding="5dp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/left_bubble_new"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_receiver_msg_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:padding="2dp"
+                android:textSize="12sp"
+                android:text="a"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:textColor="@color/Black"/>
+
+
+             <TextView
+                android:id="@+id/tv_receiver_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                android:text=" It should also be easy to change the look and feel because it uses android paint for drawing, so you can change it however you like!"
+                android:textColor="@color/Black"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginLeft="5dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_receive_msg_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="01:52 PM"
+                    android:textColor="@color/grey_time"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
